@@ -11,14 +11,14 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,  // Desativei o strict para evitar conflitos com dependências
-    "noEmit": false,  // Se você precisa de saída, altere para false
+    "strict": false, // Desativei o strict para evitar conflitos com dependências
+    "noEmit": false, // Se você precisa de saída, altere para false
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",  // Modifiquei o JSX para react-jsx se você estiver usando React 17 ou superior
+    "jsx": "preserve", // Modifiquei o JSX para react-jsx se você estiver usando React 17 ou superior
     "incremental": true,
     "plugins": [
       {
