@@ -1,0 +1,39 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos de build do Next.js
+.next/
+out/
+dist/
+
+# Ignorar arquivos de lock de pacotes
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignorar variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar diretórios de logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar cache do vercel
+.vercel/
+
+# Ignorar configurações locais do editor
+.vscode/
+.idea/
+*.swp
